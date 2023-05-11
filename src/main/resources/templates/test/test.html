@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>테스트</title>
+    <link rel="stylesheet" th:href="@{/css/test.css}">
+    <script type="text/javascript" th:src="@{/js/test.js}"></script>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title"> 이미지 & 스크립트 테스트 </h2>
+        <img id="img1" th:src="@{/img/test.jpg}" alt="" th:onclick="test();">
+    </div>
+</body>
+</html>
